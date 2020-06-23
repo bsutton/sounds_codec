@@ -93,5 +93,6 @@ class RemuxFailedException implements Exception {
   ///
   RemuxFailedException(this._message);
 
+  @override
   String toString() => _message;
 }
