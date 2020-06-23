@@ -1,6 +1,6 @@
 name: sounds_codec
 description: A starting point for Dart libraries or applications.
-# version: 1.0.0
+version: 1.0.0
 # homepage: https://www.example.com
 
 environment:
@@ -12,3 +12,8 @@ environment:
 dev_dependencies:
   pedantic: ^1.9.0
   test: ^1.14.4
+
+
+dependency_overrides:
+  sounds_common:
+    path: ../sounds_common    

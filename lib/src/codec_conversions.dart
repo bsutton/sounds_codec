@@ -16,10 +16,7 @@
 
 import 'dart:async';
 
-import '../ffmpeg/ffmpeg_util.dart';
-
-import '../playback_disposition.dart';
-import 'file_util.dart';
+import 'package:sounds_common/sounds_common.dart';
 
 /// Provides some codec conversions.
 class CodecConversions {
