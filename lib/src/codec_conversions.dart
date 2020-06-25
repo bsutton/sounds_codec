@@ -14,9 +14,8 @@
  *   along with Sounds.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import 'dart:async';
-
 import 'package:sounds_common/sounds_common.dart';
+import 'dart:async';
 
 /// Provides some codec conversions.
 class CodecConversions {
