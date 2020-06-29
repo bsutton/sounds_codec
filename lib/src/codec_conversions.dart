@@ -14,8 +14,9 @@
  *   along with Sounds.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import 'package:sounds_common/sounds_common.dart';
 import 'dart:async';
+
+import 'package:sounds_common/sounds_common.dart';
 
 import 'ffmpeg_util.dart';
 
